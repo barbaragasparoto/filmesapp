@@ -14,7 +14,15 @@ const routes: Routes = [
   {
     path: 'bela-e-a-fera',
     loadChildren: () => import('./bela-e-a-fera/bela-e-a-fera.module').then( m => m.BelaEAFeraPageModule)
+  },  {
+    path: 'cinderela',
+    loadChildren: () => import('./cinderela/cinderela.module').then( m => m.CinderelaPageModule)
   },
+  {
+    path: 'branca-de-neve',
+    loadChildren: () => import('./branca-de-neve/branca-de-neve.module').then( m => m.BrancaDeNevePageModule)
+  },
+
 ];
 
 @NgModule({
