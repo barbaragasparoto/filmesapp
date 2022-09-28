@@ -14,7 +14,8 @@ const routes: Routes = [
   {
     path: 'bela-e-a-fera',
     loadChildren: () => import('./bela-e-a-fera/bela-e-a-fera.module').then( m => m.BelaEAFeraPageModule)
-  },  {
+  },
+  {
     path: 'cinderela',
     loadChildren: () => import('./cinderela/cinderela.module').then( m => m.CinderelaPageModule)
   },
@@ -22,6 +23,18 @@ const routes: Routes = [
     path: 'branca-de-neve',
     loadChildren: () => import('./branca-de-neve/branca-de-neve.module').then( m => m.BrancaDeNevePageModule)
   },
+  {
+    path: 'bela-adormecida',
+    loadChildren: () => import('./bela-adormecida/bela-adormecida.module').then( m => m.BelaAdormecidaPageModule)
+  },  {
+    path: 'pequena-sereia',
+    loadChildren: () => import('./pequena-sereia/pequena-sereia.module').then( m => m.PequenaSereiaPageModule)
+  },
+  {
+    path: 'aladdin',
+    loadChildren: () => import('./aladdin/aladdin.module').then( m => m.AladdinPageModule)
+  }
+
 
 ];
 
